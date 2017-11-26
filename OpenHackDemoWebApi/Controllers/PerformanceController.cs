@@ -16,7 +16,7 @@ namespace OpenHackDemoWebApi.Controllers
         public int Get()
         {
             int cpuUsage = 75;
-            int time = 1000;
+            int time = 100;
             List<Thread> threads = new List<Thread>();
             for (int i = 0; i < Environment.ProcessorCount; i++)
             {
